@@ -79,7 +79,6 @@
          <button class="bg-green-500 text-white p-2 w-full">Buy</button>
        </div>
        <div class="bg-white p-4 border border-gray-200">
-       ../assets/
          <img src="../assets/eggsandchicken.jpg" alt="Eggs and Chicken Sale Image" class="w-full h-40 object-cover mb-4" />
          <h2 class="text-xl font-bold mb-2">Eggs and Chicken Sale</h2>
          <p class="text-gray-700 mb-4">Fresh eggs and chicken for sale.</p>
