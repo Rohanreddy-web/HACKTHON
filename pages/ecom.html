@@ -1,0 +1,136 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   E-commerce
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <div class="container mx-auto p-4">
+   <!-- Header -->
+   <header class="text-center mb-8">
+    <h1 class="text-3xl font-bold">
+     E-commerce
+    </h1>
+   </header>
+   <!-- Search Bar -->
+   <div class="flex justify-center mb-8">
+    <!-- Dropdown Button -->
+    <div class="relative">
+     <button class="bg-gray-300 text-gray-700 p-2 rounded-l" id="dropdownButton">
+      Farming Types
+      <i class="fas fa-caret-down ml-2">
+      </i>
+     </button>
+     <div class="absolute hidden bg-white text-gray-700 mt-1 rounded shadow-lg" id="dropdownMenu">
+      <a class="block px-4 py-2 hover:bg-gray-200 cursor-pointer" onclick="showOrganicFarming()">
+       Organic Farming
+      </a>
+      <a class="block px-4 py-2 hover:bg-gray-200 cursor-pointer" onclick="showAquaFarming()">
+       Aqua Farming
+      </a>
+      <a class="block px-4 py-2 hover:bg-gray-200 cursor-pointer" onclick="showDairyFarming()">
+       Dairy Farming
+      </a>
+      <a class="block px-4 py-2 hover:bg-gray-200 cursor-pointer" onclick="showPoultryFarming()">
+       Poultry Farming
+      </a>
+      <a class="block px-4 py-2 hover:bg-gray-200 cursor-pointer" onclick="showMelittiecultureFarming()">
+       Melittieculture Farming
+      </a>
+      <a class="block px-4 py-2 hover:bg-gray-200 cursor-pointer" onclick="showSericultureFarming()">
+       Sericulture Farming
+      </a>
+     </div>
+    </div>
+    <input class="border border-gray-300 p-2 w-1/2 rounded-r" placeholder="Search" type="text"/>
+    <button class="bg-blue-500 text-white p-2">
+     <i class="fas fa-search">
+     </i>
+    </button>
+   </div>
+   <!-- Product Grid -->
+   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4" id="productGrid">
+    <!-- Default Product Items -->
+    <div class="bg-white p-4 border border-gray-200">
+     <img alt="Product Image" class="w-full h-40 object-cover mb-4" height="150" src="1.jpg" width="200"/>
+     <h2 class="text-xl font-bold mb-2">
+       Monocrotophos
+     </h2>
+     <p class="text-gray-700 mb-4">
+       Used to control pests like cotton bollworms, aphids, and whiteflies.
+     </p>
+     <button class="bg-green-500 text-white p-2 w-full">
+      Buy
+     </button>
+    </div>
+    <div class="bg-white p-4 border border-gray-200">
+     <img alt="Product Image" class="w-full h-40 object-cover mb-4" height="150" src="2.jpg" width="200"/>
+     <h2 class="text-xl font-bold mb-2">
+       Cypermethrin
+     </h2>
+     <p class="text-gray-700 mb-4">
+       Used to control pests like cotton bollworms, aphids, and thrips.
+     </p>
+     <button class="bg-green-500 text-white p-2 w-full">
+      Buy
+     </button>
+    </div>
+    <div class="bg-white p-4 border border-gray-200">
+     <img alt="Product Image" class="w-full h-40 object-cover mb-4" height="150" src="3.jpg" width="200"/>
+     <h2 class="text-xl font-bold mb-2">
+    Dairy products
+     </h2>
+     <p class="text-gray-700 mb-4">
+      Dairy products like MILK 
+     </p>
+     <button class="bg-green-500 text-white p-2 w-full">
+      Buy
+     </button>
+    </div>
+    <div class="bg-white p-4 border border-gray-200">
+     <img alt="Product Image" class="w-full h-40 object-cover mb-4" height="150" src="4.jpg" width="200"/>
+     <h2 class="text-xl font-bold mb-2">
+     Honey
+     </h2>
+     <p class="text-gray-700 mb-4">
+       Honey is a sweet and viscous substance made by several species of bees
+     </p>
+     <button class="bg-green-500 text-white p-2 w-full">
+      Buy
+     </button>
+    </div>
+    <div class="bg-white p-4 border border-gray-200">
+     <img alt="Product Image" class="w-full h-40 object-cover mb-4" height="150" src="5.jpg" width="200"/>
+     <h2 class="text-xl font-bold mb-2">
+      
+Nuziveedu Seeds 
+     </h2>
+     <p class="text-gray-700 mb-4">
+       “Most Preferred Seed Brand, Always” committed to serving and supporting farmer communities across India.
+     </p>
+     <button class="bg-green-500 text-white p-2 w-full">
+      Buy
+     </button>
+    </div>
+    <div class="bg-white p-4 border border-gray-200">
+     <img alt="Product Image" class="w-full h-40 object-cover mb-4" height="150" src="6.jpg" width="200"/>
+     <h2 class="text-xl font-bold mb-2">
+      Fish Roe
+     </h2>
+     <p class="text-gray-700 mb-4">
+       Fish roe is another name for fish eggs. More specifically, it is the fully ripe and unfertilized eggs of a fish.
+     </p>
+     <button class="bg-green-500 text-white p-2 w-full">
+      Buy
+     </button>
+    </div>
+   </div>
+  </div>
+<script src="../js/script8.js"></script>
+ </body>
+</html>

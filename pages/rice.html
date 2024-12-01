@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agrigo - Cotton Information</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+  </style>
+</head>
+<body class="font-roboto bg-gradient-to-r from-green-400 via-green-300 to-green-500 text-gray-800">
+  <!-- Cotton Image Section -->
+  <div class="w-full mb-8">
+    <img alt="A detailed image of a cotton field with cotton plants in full bloom under a clear blue sky" 
+         class="w-full h-80 object-cover" 
+         src="../assets/cotton.jpg">
+  </div>
+
+  <div class="container mx-auto px-6">
+    <!-- Title Section -->
+    <div class="bg-white p-6 rounded-lg shadow-lg mb-8 max-w-md mx-auto text-center">
+      <h1 class="text-3xl font-bold text-gray-800">
+        🌱 Cotton
+      </h1>
+    </div>
+
+    <!-- Information Section -->
+    <div class="bg-white p-6 rounded-lg shadow-lg mb-8 max-w-3xl mx-auto">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+        About Cotton
+      </h2>
+      <p class="text-gray-700 mb-4">
+        <strong>Type of Soil:</strong> Cotton grows best in deep, well-drained soils with a pH of 5.8 to 8.0. Sandy loam soils are ideal.
+      </p>
+      <p class="text-gray-700 mb-4">
+        <strong>Duration:</strong> The growth duration of cotton varies from 150 to 180 days depending on the variety and growing conditions.
+      </p>
+      <p class="text-gray-700">
+        <strong>Fertilizers Used:</strong> Cotton requires a balanced supply of nutrients. Common fertilizers include nitrogen, phosphorus, and potassium. Organic matter like compost can also be beneficial.
+      </p>
+    </div>
+
+    <!-- YouTube Video Section -->
+    <div class="bg-white p-6 rounded-lg shadow-lg max-w-3xl mx-auto flex flex-col">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+        Learn More About Cotton
+      </h2>
+      <div class="w-full h-[350px]">
+        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen 
+                class="w-full h-full rounded-lg border-2 border-green-300" 
+                frameborder="0" 
+                src="https://www.youtube.com/embed/VIDEO_ID" 
+                title="YouTube video player">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

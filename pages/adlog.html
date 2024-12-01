@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .sign {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 350px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .input1,
+        .input2 {
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+        }
+
+        .input1:focus,
+        .input2:focus {
+            outline: none;
+            border-color: #007BFF;
+        }
+
+        button {
+            padding: 12px;
+            font-size: 16px;
+            background-color: #28a745;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .button2 {
+            background-color: #6c757d;
+            color: white;
+            margin-top: 10px;
+        }
+
+        .button2:hover {
+            background-color: #5a6268;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            nav img {
+                width: 120px;
+            }
+
+            .sign {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            button,
+            .button2 {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sign">
+        <h1>Sign in</h1>
+        <div class="main">
+            <input type="email" id="email-id" placeholder="Email or phone number" required class="email-id input1">
+            <input type="password" placeholder="Password" required class="secondin input2 pass">
+            <button id="sign-in-btn">Sign In</button>
+            <button class="button2">Use a sign-in code</button>
+        </div>
+    </div>
+
+<script src="../js/script6.js"></script>
+</body>
+
+</html>

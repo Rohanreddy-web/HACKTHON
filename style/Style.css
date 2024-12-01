@@ -1,0 +1,38 @@
+.cont .card{
+    padding: 10px;
+    margin: auto;
+}
+.card-body{
+    min-height: 48px;
+}
+.card img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+.d-grid a{
+    font-size: 0.8rem;
+}
+nav{
+    color: aliceblue;
+   padding: 20px;
+}
+h1{
+    margin: auto;
+}
+form{
+    margin: auto;
+}
+.card-text{
+    font-size: 0.8rem;
+}
+.bold{
+    font-weight: 600;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:space-around;
+    gap: 50px;
+}
